@@ -1,11 +1,15 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import { HomeContainer } from "@/components/HomeContainer";
+import { DefaultPage } from "@/components/DefaultPage";
 
-const IndexPage: React.FC<PageProps> = () => {
-  return <HomeContainer>home</HomeContainer>;
+const HomePage: React.FC<PageProps> = () => {
+  return <DefaultPage></DefaultPage>;
 };
 
-export default IndexPage;
+export default HomePage;
 
-export const Head: HeadFC = () => <title>Teilor Souza Bacelos</title>;
+export const Head: HeadFC = () => (
+  <title>
+    Teilor Souza Bacelos - Desenvolvedor Web Full-stack ReactJs e NodeJs
+  </title>
+);
