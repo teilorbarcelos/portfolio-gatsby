@@ -18,6 +18,7 @@ const config: GatsbyConfig = {
           "@/components": "src/components",
           "@/styles": "src/styles",
           "@/helpers": "src/helpers",
+          "@/hooks": "src/hooks",
           "@/images": "src/images",
           "@/pages": "src/pages",
         },

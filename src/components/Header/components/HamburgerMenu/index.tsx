@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { HamburgerContainer } from "./styles";
+import { useMenuStore } from "@/hooks/useMenu";
 
 export const HamburgerMenu: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const { toggleMenu, isOpen } = useMenuStore();
   return (
-    <HamburgerContainer
-      onClick={() => setIsMenuOpen((prev) => !prev)}
-      isMenuOpen={isMenuOpen}
-    >
+    <HamburgerContainer onClick={toggleMenu} isMenuOpen={isOpen}>
       <div className="first-bar" />
       <div className="middle-bar" />
       <div className="last-bar" />
