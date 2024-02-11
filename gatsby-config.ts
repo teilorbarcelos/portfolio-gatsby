@@ -17,6 +17,8 @@ const config: GatsbyConfig = {
         alias: {
           "@/components": "src/components",
           "@/styles": "src/styles",
+          "@/helpers": "src/helpers",
+          "@/images": "src/images",
           "@/pages": "src/pages",
         },
         extensions: ["js", "jsx", "ts", "tsx"],
