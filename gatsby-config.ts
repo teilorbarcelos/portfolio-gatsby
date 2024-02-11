@@ -20,6 +20,7 @@ const config: GatsbyConfig = {
           "@/helpers": "src/helpers",
           "@/hooks": "src/hooks",
           "@/images": "src/images",
+          "@/icons": "src/icons",
           "@/pages": "src/pages",
         },
         extensions: ["js", "jsx", "ts", "tsx"],
