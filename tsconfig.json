@@ -35,7 +35,9 @@
       "@/components/*": ["src/components/*"],
       "@/styles/*": ["src/styles/*"],
       "@/helpers/*": ["src/helpers/*"],
+      "@/hooks/*": ["src/hooks/*"],
       "@/images/*": ["src/images/*"],
+      "@/icons/*": ["src/icons/*"],
       "@/pages/*": ["src/pages/*"]
     } /* Specify a set of entries that re-map imports to additional lookup locations. */,
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
