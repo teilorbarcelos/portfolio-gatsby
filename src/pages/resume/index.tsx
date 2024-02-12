@@ -3,15 +3,15 @@ import { type HeadFC, type PageProps } from "gatsby";
 import { DefaultPage } from "@/components/DefaultPage";
 import { useRouterStore } from "@/hooks/useRouter";
 
-const HomePage: React.FC<PageProps> = () => {
+const ResumePage: React.FC<PageProps> = () => {
   const { setPathname } = useRouterStore();
   useEffect(() => {
-    setPathname("/");
+    setPathname("/resume");
   }, []);
   return <DefaultPage></DefaultPage>;
 };
 
-export default HomePage;
+export default ResumePage;
 
 export const Head: HeadFC = () => (
   <title>
