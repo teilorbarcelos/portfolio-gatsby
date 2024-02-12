@@ -10,6 +10,6 @@ export const SocialButtonsContainer = styled.div`
   gap: ${rem(12.5)};
 
   @media screen and (max-width: 450px) {
-    display: none;
+    transform: translate(-90%, 0);
   }
 `;
