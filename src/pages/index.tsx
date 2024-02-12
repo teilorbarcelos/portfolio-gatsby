@@ -1,8 +1,13 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import React, { useEffect } from "react";
+import { type HeadFC, type PageProps } from "gatsby";
 import { DefaultPage } from "@/components/DefaultPage";
+import { useRouterStore } from "@/hooks/useRouter";
 
-const HomePage: React.FC<PageProps> = () => {
+const HomePage: React.FC<PageProps> = ({ location }) => {
+  const { setPathname } = useRouterStore();
+  useEffect(() => {
+    setPathname(location.pathname);
+  }, []);
   return <DefaultPage></DefaultPage>;
 };
 

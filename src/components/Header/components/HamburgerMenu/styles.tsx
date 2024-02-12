@@ -12,6 +12,7 @@ export const HamburgerContainer = styled.div<HamburgerContainerProps>`
   display: flex;
   flex-direction: column;
   gap: ${rem(5)};
+  cursor: pointer;
 
   .first-bar {
     background: #d7dde9;

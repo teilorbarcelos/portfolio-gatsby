@@ -1,5 +1,10 @@
 import React from "react";
+import { HireMeButtonContainer } from "./styles";
 
 export const HireMeButton: React.FC = () => {
-  return <div>Entre em Contato</div>;
+  return (
+    <HireMeButtonContainer data-testid="hire-me-button">
+      <a href="/contact">Contato</a>
+    </HireMeButtonContainer>
+  );
 };
