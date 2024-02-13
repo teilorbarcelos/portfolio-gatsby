@@ -15,15 +15,13 @@ export const DefaultPage: React.FC<DefaultPageProps> = ({ children }) => {
     <DefaultPageContainer>
       <NavBar />
       <Header />
-      <ContentContainer>
-        {children}
-        <Footer>
-          <p>
-            Desenvolvido por <Link to="/contact">Teilor Souza Barcelos</Link>{" "}
-            2024.
-          </p>
-        </Footer>
-      </ContentContainer>
+      <ContentContainer>{children}</ContentContainer>
+      <Footer>
+        <p>
+          Desenvolvido por <Link to="/contact">Teilor Souza Barcelos</Link>{" "}
+          2024.
+        </p>
+      </Footer>
     </DefaultPageContainer>
   );
 };

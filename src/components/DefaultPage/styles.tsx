@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const DefaultPageContainer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 0 ${rem(16)};
 `;
 
@@ -24,9 +25,8 @@ export const Footer = styled.footer`
 
   display: flex;
 
-  height: ${rem(50)};
-  justify-content: center;
-  align-items: start;
+  height: ${rem(70)};
+  align-items: center;
 
   a {
     color: #a5b3ce;
