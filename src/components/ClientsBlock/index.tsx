@@ -5,6 +5,7 @@ import {
   BlockTitle,
   ViewButton,
 } from "@/components/Header/components/BlockPieces";
+import { ClientsList } from "./components/ClientsList";
 
 interface ClientsBlockProps {
   title?: string;
@@ -18,8 +19,9 @@ export const ClientsBlock: React.FC<ClientsBlockProps> = ({
   title = "Clientes e Serviços",
 }) => {
   return (
-    <BlockPieceContainer paddingTop={90}>
+    <BlockPieceContainer paddingTop={90} paddingHorizontal={50}>
       <BlockTitle>{title}</BlockTitle>
+      <ClientsList />
       <ViewButton href={href}>{seeMoreText}</ViewButton>
     </BlockPieceContainer>
   );
