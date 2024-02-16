@@ -9,7 +9,7 @@ export const ViewButtonContainer = styled.div`
   background: #465981;
   display: flex;
   align-items: center;
-  gap: ${rem(8)};
+  gap: ${rem(10)};
   color: #fff;
   font-size: ${rem(16)};
   line-height: ${rem(24)};
