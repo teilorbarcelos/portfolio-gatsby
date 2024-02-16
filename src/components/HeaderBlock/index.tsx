@@ -1,11 +1,10 @@
 import React from "react";
 import {
-  Avatar,
-  BlockPieceContainer,
   BlockTitle,
   BlockText,
   ViewButton,
 } from "@/components/Header/components/BlockPieces";
+import { AvatarBlock } from "../AvatarBlock";
 
 interface HeaderBlockProps {
   title?: string;
@@ -26,11 +25,10 @@ export const HeaderBlock: React.FC<HeaderBlockProps> = ({
   title = "Teilor Souza Barcelos",
 }) => {
   return (
-    <BlockPieceContainer paddingTop={90}>
-      <Avatar />
+    <AvatarBlock>
       <BlockTitle>{title}</BlockTitle>
       <BlockText>{text}</BlockText>
       <ViewButton href={href}>{seeMoreText}</ViewButton>
-    </BlockPieceContainer>
+    </AvatarBlock>
   );
 };
