@@ -6,6 +6,7 @@ import { HeaderBlock } from "@/components/HeaderBlock";
 import { TeasersBlock } from "@/components/TeasersBlock";
 import { featuredProjects } from "@/base/constants";
 import { ClientsBlock } from "@/components/ClientsBlock";
+import { SkillsBlock } from "@/components/SkillsBlock";
 
 const HomePage: React.FC<PageProps> = () => {
   const { setPathname } = useRouterStore();
@@ -17,6 +18,7 @@ const HomePage: React.FC<PageProps> = () => {
       <HeaderBlock />
       <TeasersBlock featuredTeasers={{ featuredTeasers: featuredProjects }} />
       <ClientsBlock />
+      <SkillsBlock />
     </DefaultPage>
   );
 };
