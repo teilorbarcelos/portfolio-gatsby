@@ -5,8 +5,8 @@ import {
   BlockTitle,
   ViewButton,
 } from "@/components/Header/components/BlockPieces";
-import { TechnologiesList } from "./components/TechnologiesList";
-import { SkillsResumeList } from "./components/SkillsResume";
+import { TechnologiesList } from "../TechnologiesList";
+import { SkillsResumeList } from "../SkillsResume";
 
 export const SkillsBlock: React.FC = () => {
   return (
@@ -19,7 +19,7 @@ export const SkillsBlock: React.FC = () => {
       <TechnologiesList />
       <ViewButton href="/resume">Ver resumo</ViewButton>
       <SkillsResumeList />
-      <ViewButton href="/contact">Contato</ViewButton>
+      <ViewButton href="/contact">Entrar em Contato</ViewButton>
     </BlockPieceContainer>
   );
 };

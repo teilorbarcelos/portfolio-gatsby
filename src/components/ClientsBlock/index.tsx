@@ -14,7 +14,7 @@ interface ClientsBlockProps {
 
 export const ClientsBlock: React.FC<ClientsBlockProps> = ({
   href = "/contact",
-  seeMoreText = "Entre em contato",
+  seeMoreText = "Entrar em contato",
   title = "Clientes e Serviços",
 }) => {
   return (

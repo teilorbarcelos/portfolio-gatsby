@@ -1,6 +1,6 @@
+import { IconsContainerCircle } from "@/components/IconsContainerCircle/styled";
 import { IconProps } from "@/icons/icons.interface";
 import React from "react";
-import { IconsContainerCircle } from "../components/IconsContainerCircle/styled";
 
 export const AboutMeIcon: React.FC<IconProps> = ({ ...rest }) => {
   return (
