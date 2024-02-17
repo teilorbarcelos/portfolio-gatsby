@@ -9,4 +9,9 @@ html {
 
 * {
     font-family: Inter, sans-serif;
+
+    &::selection {
+        color: #333;
+        background: #999;
+    }
 }
