@@ -6,5 +6,5 @@ export const ResumeAboutMeContainer = styled.div`
   flex-direction: column;
   gap: ${rem(26)};
   padding-bottom: ${rem(32)};
-  border-bottom: solid ${rem(1)} #a5b3ce;
+  border-bottom: solid ${rem(1)} rgba(165, 179, 206, 0.25);
 `;

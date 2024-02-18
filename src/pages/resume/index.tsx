@@ -27,7 +27,7 @@ const LeftList = styled.aside`
   flex-direction: column;
   align-items: flex-start;
   padding: 0 ${rem(24)} 0 ${rem(12)};
-  border-right: solid ${rem(1)} #a5b3ce;
+  border-right: solid ${rem(1)} rgba(165, 179, 206, 0.25);
   gap: ${rem(32)};
 `;
 
