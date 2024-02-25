@@ -14,6 +14,7 @@ import { AboutMe } from "@/components/AboutMe";
 
 import { rem } from "@/helpers/rem";
 import styled from "styled-components";
+import { SoftSkills } from "@/components/SoftSkills";
 
 const ResumeBodyContainer = styled.div`
   width: 100%;
@@ -38,6 +39,16 @@ const RightList = styled.aside`
   flex-direction: column;
   align-items: flex-start;
   padding: 0 ${rem(12)} 0 ${rem(24)};
+  gap: ${rem(32)};
+`;
+
+export const RightListItemContainer = styled.div`
+  width: 100%;
+
+  &:not(:last-child) {
+    padding-bottom: ${rem(32)};
+    border-bottom: solid ${rem(1)} rgba(165, 179, 206, 0.25);
+  }
 `;
 
 const ResumePage: React.FC<PageProps> = () => {
@@ -58,6 +69,7 @@ const ResumePage: React.FC<PageProps> = () => {
           </LeftList>
           <RightList>
             <TechStacks />
+            <SoftSkills />
           </RightList>
         </ResumeBodyContainer>
       </AvatarBlock>
