@@ -15,6 +15,7 @@ import { AboutMe } from "@/components/AboutMe";
 import { rem } from "@/helpers/rem";
 import styled from "styled-components";
 import { SoftSkills } from "@/components/SoftSkills";
+import { ProjectsSideList } from "@/components/ProjectsSideList";
 
 const ResumeBodyContainer = styled.div`
   width: 100%;
@@ -70,6 +71,7 @@ const ResumePage: React.FC<PageProps> = () => {
           <RightList>
             <TechStacks />
             <SoftSkills />
+            <ProjectsSideList />
           </RightList>
         </ResumeBodyContainer>
       </AvatarBlock>

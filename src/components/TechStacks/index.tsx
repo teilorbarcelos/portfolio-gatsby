@@ -14,6 +14,7 @@ export const TechStacks: React.FC = () => {
       <TechnologyLevel title="ReactJs" level={95} />
       <TechnologyLevel title="NextJs" level={95} />
       <TechnologyLevel title="Typescript" level={90} />
+      <TechnologyLevel title="Git" level={85} />
       <TechnologyLevel title="NodeJs" level={85} />
     </RightListItemContainer>
   );
