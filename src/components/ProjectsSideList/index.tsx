@@ -1,5 +1,5 @@
 import React from "react";
-import { ResumeBlockItemHeader } from "../ResumeBlockItemHeader";
+import { ResumeBlockItemHeader } from "@/components/ResumeBlockItemHeader";
 import { RightListItemContainer } from "@/pages/resume";
 import { ProjectsIcon } from "@/icons/ProjectsIcon";
 import { featuredProjects } from "@/base/constants";

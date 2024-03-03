@@ -1,7 +1,7 @@
 import React from "react";
 import { BlockText } from "@/components/Header/components/BlockPieces";
 import { ResumeAboutMeContainer } from "./styles";
-import { ResumeBlockItemHeader } from "../ResumeBlockItemHeader";
+import { ResumeBlockItemHeader } from "@/components/ResumeBlockItemHeader";
 import { AboutMeIcon } from "@/icons/AboutMeIcon";
 
 export const AboutMe: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { ResumeBlockItemHeader } from "../ResumeBlockItemHeader";
+import { ResumeBlockItemHeader } from "@/components/ResumeBlockItemHeader";
 import { TechnologyLevel } from "../components/WorksResume/TechnologyLevel";
 import { TechnologyIcon } from "@/icons/TechnologyIcon";
 import { RightListItemContainer } from "@/pages/resume";
