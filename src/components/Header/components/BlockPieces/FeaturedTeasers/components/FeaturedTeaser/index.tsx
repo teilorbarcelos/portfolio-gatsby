@@ -8,6 +8,7 @@ export interface FeaturedTeaserProps {
   imageUrl: string;
   title: string;
   featuredText: string;
+  miniText: string;
   url: string;
   repository: string;
 }
