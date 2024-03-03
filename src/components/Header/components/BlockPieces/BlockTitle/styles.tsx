@@ -14,8 +14,8 @@ export const BlockTitle = styled.h1<BlockTitleProps>`
   ${(props) => (props.uppercase ? "text-transform: uppercase;" : "")}
 
   @media screen and (max-width: 768px) {
-    font-size: ${rem(24)};
+    font-size: ${rem(20)};
     line-height: ${rem(28)};
-    letter-spacing: ${rem(1.6)};
+    letter-spacing: ${rem(1.4)};
   }
 `;

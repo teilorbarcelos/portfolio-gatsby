@@ -22,6 +22,10 @@ import { LanguagesSideList } from "@/components/LanguagesSideList";
 const ResumeBodyContainer = styled.div`
   width: 100%;
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const LeftList = styled.aside`
@@ -33,6 +37,13 @@ const LeftList = styled.aside`
   padding: 0 ${rem(24)} 0 ${rem(12)};
   border-right: solid ${rem(1)} rgba(165, 179, 206, 0.25);
   gap: ${rem(32)};
+
+  @media screen and (max-width: 768px) {
+    border: none;
+    border-bottom: solid ${rem(1)} rgba(165, 179, 206, 0.25);
+    padding: 0 0 ${rem(12)};
+    margin-bottom: ${rem(24)};
+  }
 `;
 
 const RightList = styled.aside`
@@ -43,6 +54,11 @@ const RightList = styled.aside`
   align-items: flex-start;
   padding: 0 ${rem(12)} 0 ${rem(24)};
   gap: ${rem(32)};
+
+  @media screen and (max-width: 768px) {
+    padding: 0 ${rem(8)};
+    max-width: 100%;
+  }
 `;
 
 export const RightListItemContainer = styled.div`

@@ -94,4 +94,8 @@ export const WorksTimelineListItemContainer = styled.li`
     margin-bottom: ${rem(10)};
     padding-left: ${rem(16)};
   }
+
+  @media screen and (max-width: 768px) {
+    padding-left: ${rem(8)};
+  }
 `;
