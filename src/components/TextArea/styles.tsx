@@ -36,5 +36,13 @@ export const TextareaContainer = styled.div<TextareaContainerProps>`
         color: transparent;
       }
     }
+
+    &:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px #273248 inset;
+    }
+
+    &:-webkit-autofill {
+      -webkit-text-fill-color: #a5b3ce !important;
+    }
   }
 `;
