@@ -32,6 +32,7 @@ const config: GatsbyConfig = {
           "@/hooks": "src/hooks",
           "@/images": "src/images",
           "@/icons": "src/icons",
+          "@/lib": "src/lib",
           "@/pages": "src/pages",
         },
         extensions: ["js", "jsx", "ts", "tsx"],
