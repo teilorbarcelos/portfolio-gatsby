@@ -1,6 +1,6 @@
 import React, { TextareaHTMLAttributes, useEffect } from "react";
 import { TextareaContainer } from "./styles";
-import { Field, FieldInputProps, FormikProps } from "formik";
+import { Field, FormikProps } from "formik";
 import { ValidatorProps } from "@/helpers/validators";
 
 interface TextareaProps {

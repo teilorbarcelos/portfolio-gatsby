@@ -1,6 +1,6 @@
 import React, { InputHTMLAttributes, useEffect } from "react";
 import { InputContainer } from "./styles";
-import { Field, FieldInputProps, FormikProps } from "formik";
+import { Field, FormikProps } from "formik";
 import { ValidatorProps } from "@/helpers/validators";
 
 interface InputProps {
