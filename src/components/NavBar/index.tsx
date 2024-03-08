@@ -22,9 +22,9 @@ export const NavBar: React.FC = () => {
           <BagIcon />
         </MenuLink>
 
-        <MenuLink path="/blog" title="Blog" testId="blog-link">
+        {/* <MenuLink path="/blog" title="Blog" testId="blog-link">
           <PenIcon />
-        </MenuLink>
+        </MenuLink> */}
 
         <MenuLink path="/resume" title="Resumo" testId="resume-link">
           <ResumeIcon />

@@ -30,11 +30,13 @@ export const FeaturedTeaser: React.FC<FeaturedTeaserProps> = ({
           <span>Visitar repositório</span> <BiRightArrowAlt />
         </div>
       </Link>
-      <Link to={url} target="_blank">
-        <div className="see-more">
-          <span>Visitar site</span> <BiRightArrowAlt />
-        </div>
-      </Link>
+      {url && (
+        <Link to={url} target="_blank">
+          <div className="see-more">
+            <span>Visitar site</span> <BiRightArrowAlt />
+          </div>
+        </Link>
+      )}
     </FeaturedTeaserContainer>
   );
 };
